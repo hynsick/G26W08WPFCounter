@@ -20,5 +20,11 @@ namespace G26W08WPFCounter
         {
             InitializeComponent();
         }
+
+        private void OnAdd(object sender, RoutedEventArgs e)
+        {
+            //BtnAdd.Content = "눌렸습니다";
+            TxtCount.Text = "눌렸습니다";
+        }
     }
 }
